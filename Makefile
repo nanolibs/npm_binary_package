@@ -10,10 +10,10 @@ VERSION = 1.0.0
 all: build copy
 
 build:
-	$(CC) $(CFLAGS) -o $(BIN_DIR)/hello_world $(HELLO_WORLD_SRC_DIR)/hello_world.c
+	$(CC) $(CFLAGS) -o $(HELLO_WORLD_SRC_DIR)/hello_world $(HELLO_WORLD_SRC_DIR)/hello_world.c
 
 copy:
-	cp $(BIN_DIR)/hello_world $(NPM_PACKAGE_DIR)/bin/
+	cp $(HELLO_WORLD_SRC_DIR)/hello_world $(NPM_PACKAGE_DIR)/bin/
 
 publish:
 	cd $(NPM_PACKAGE_DIR) && npm version $(VERSION) && npm publish
