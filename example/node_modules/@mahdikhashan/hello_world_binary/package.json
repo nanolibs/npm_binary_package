@@ -1,0 +1,15 @@
+{
+  "name": "@mahdikhashan/hello_world_binary",
+  "version": "1.0.0",
+  "description": "practice to distribute C based binaries in an npm package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run-hello-world": "./bin/hello_world"
+  },
+  "bin": {
+    "hello-world": "bin/hello_world"
+  },
+  "author": "Mahdi Khashan",
+  "license": "MIT"
+}

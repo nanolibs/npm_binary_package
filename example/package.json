@@ -1,0 +1,14 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node_modules/@mahdikhashan/hello_world_binary/bin/hello_world"
+  },
+  "author": "Mahdi Khashan",
+  "license": "ISC",
+  "dependencies": {
+    "@mahdikhashan/hello_world_binary": "^1.0.0"
+  }
+}
